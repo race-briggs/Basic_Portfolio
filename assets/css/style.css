@@ -9,17 +9,16 @@ body {
 
 header {
   background-color: #1331f0;
-  padding: 10px;
 }
 
 .headingName {
   margin: 0;
   float: left;
+  padding: 10px;
 }
 
 ul {
   list-style: none;
-  padding: 5px;
   margin: 0;
 }
 
@@ -28,7 +27,8 @@ li {
   display: inline-block;
   width: 80px;
   height: 30px;
-  padding: 5px;
+  padding: 10px;
+  margin: 10px auto;
 }
 
 li:hover {
@@ -40,6 +40,40 @@ a {
   text-decoration: none;
   color: black;
   padding: 5px;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  padding: 10px;
+}
+
+.container {
+  margin: 3% auto;
+  width: 60%;
+  padding: 7px;
+  background-color: grey;
+  border-radius: 8px;
+}
+
+.section-title {
+  text-align: center;
+  padding: 3px;
+}
+
+.line-div {
+  height: 2px;
+  width: 80%;
+  background-color: black;
+  margin: 1px auto;
+}
+
+.profile-img {
+  border-radius: 50%;
+  float: left;
+  padding: 20px;
 }
 
 .clearfix::after {
