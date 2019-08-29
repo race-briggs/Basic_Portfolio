@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #139bf0;
+}
+
+header {
+  background-color: #1331f0;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  float: right;
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+}
+
+li:hover {
+  color: white;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  overflow: auto;
+}
