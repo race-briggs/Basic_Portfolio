@@ -94,6 +94,14 @@ form > label, form > input, form > textarea {
   border-radius: 4px;
 }
 
+label {
+  font-size: 24px;
+}
+
+input[type="text"] {
+  height: 30px;
+}
+
 textarea {
   height: 80px;
 }
